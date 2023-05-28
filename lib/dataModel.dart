@@ -411,153 +411,216 @@ List<Tematica> exposiciones = [
     ),
         Tematica(
         tmtNombre: 'Herramientas del sistema',
-        tmtDesc: '',
-        tmtImage: '',
-        tmtfuente: ''
+        tmtDesc: 'Herramientas de Windows es una carpeta del Panel de control de Windows 11. Herramientas administrativas es una carpeta del Panel de control de Windows 10. Estas carpetas contienen herramientas para los administradores del sistema y usuarios avanzados.\n\nLas herramientas se encuentran en la carpeta C:\Windows\System32\ o sus subcarpetas.Estas herramientas se incluyeron en versiones anteriores de Windows. La documentación asociada para cada herramienta puede ayudarle a usarlas. En la lista siguiente se incluyen vínculos a la documentación de cada una.',
+        tmtList: '\n* Servicios de componentes\n'
+        '\n* Administración de equipos\n'
+        '\n* Desfragmentación y optimización de unidades\n'
+        '\n* Liberador de espacio en disco\n'
+        '\n* Visor de eventos\n'
+        '\n* Iniciador iSCSI\n'
+        '\n* Directiva de seguridad local\n'
+        '\n* Orígenes de datos ODBC\n'
+        '\n* Performance Monitor\n'
+        '\n* Administración de impresión\n'
+        '\n* Unidad de recuperación\n'
+        '\n* Editor del Registro\n'
+        '\n* Monitor de recursos\n'
+        '\n* Servicios\n'
+        '\n* Configuración del sistema\n'
+        '\n* Información del sistema\n'
+        '\n* Programador de tareas\n'
+        '\n* Firewall de Windows con seguridad avanzada\n'
+        '\n* Diagnóstico de memoria de Windows\n',
+        tmtImage: 'https://4.bp.blogspot.com/_zbCeVVMs59s/TOSx53WUSFI/AAAAAAAAACc/woMzlLIMgeY/s1600/menu_inicio_herramientas.gif',
+        tmtfuente: 'https://learn.microsoft.com/es-es/windows/client-management/client-tools/administrative-tools-in-windows'
     ),
         Tematica(
         tmtNombre: 'Lenguajes de programación (Clasificación - ejemplos)',
-        tmtDesc: '',
-        tmtImage: '',
-        tmtfuente: ''
+        tmtDesc: 'En informática, se conoce como lenguaje de programación a un programa destinado a la construcción de otros programas informáticos. Su nombre se debe a que comprende un lenguaje formal que está diseñado para organizar algoritmos y procesos lógicos que serán luego llevados a cabo por un ordenador o sistema informático, permitiendo controlar así su comportamiento físico, lógico y su comunicación con el usuario humano.\n\nDicho lenguaje está compuesto por símbolos y reglas sintácticas y semánticas, expresadas en forma de instrucciones y relaciones lógicas, mediante las cuales se construye el código fuente de una aplicación o pieza de software determinado. Así, puede llamarse también lenguaje de programación al resultado final de estos procesos creativos.\n\nTipos de lenguajes\n\n* Lenguajes de bajo nivel. Se trata de lenguajes de programación que están diseñados para un hardware específico y que por lo tanto no pueden migrar o exportarse a otros computadores. Sacan el mayor provecho posible al sistema para el que fueron diseñados, pero no aplican para ningún otro.\n\n* Lenguajes de alto nivel. Se trata de lenguajes de programación que aspiran a ser un lenguaje más universal, por lo que pueden emplearse indistintamente de la arquitectura del hardware, es decir, en diversos tipos de sistemas. Los hay de propósito general y de propósito específico.\n\n* Lenguajes de nivel medio. Este término no siempre es aceptado, que propone lenguajes de programación que se ubican en un punto medio entre los dos anteriores: pues permite operaciones de alto nivel y a la vez la gestión local de la arquitectura del sistema.',
+        tmtList: '\nEjemplos\n\n'
+            '* Basic\n'
+            '\n* Visual Basic .NET\n'
+            '\n* COBOL\n'
+            '\n* FORTRAN\n'
+            '\n* Java\n'
+            '\n* Javascript\n'
+            '\n* Python\n'
+            '\n* R\n'
+            '\n* C\n'
+            '\n* C++\n'
+            '\n* C#\n'
+            ,
+        tmtImage: 'https://i0.wp.com/aprendeycrea.net/wp-content/uploads/2021/10/Estos-son-los-lenguajes-de-programacion-que-utilizan-Facebook-Google-Windows-Apple-Linux-y-otros.jpg?fit=600%2C339&ssl=1',
+        tmtfuente: 'https://concepto.de/lenguaje-de-programacion/'
     ),
         Tematica(
         tmtNombre: 'Software aplicativo y software desarrollo',
-        tmtDesc: '',
-        tmtImage: '',
-        tmtfuente: ''
+        tmtDesc: 'En informática, se entiende por software de aplicación, programas de aplicaciones o en algunos casos aplicaciones, al conjunto de los programas informáticos generalmente instalados en el sistema por el usuario, y diseñados para llevar a cabo un objetivo determinado y concreto, de tipo lúdico, instrumental, comunicativo, informativo, etc.\n\nDicho de otro modo: todos aquellos programas que no tienen que ver con el funcionamiento del computador, sino que instalamos en él para darle funciones determinadas como herramienta de trabajo (hoja de cálculo, procesador de palabras, programas de diseño gráfico, etc.), de ocio (videojuegos, reproductores de audio o video, etc.) o de información (enciclopedias digitales, navegador de Internet, etc.), entre otras.',
+        tmtImage: 'https://cdn.goconqr.com/uploads/node/image/63225868/desktop_f00af65b-8958-45e3-b5d8-b3f91d39cbda.png',
+        tmtfuente: 'https://concepto.de/software-de-aplicacion/'
     ),
         Tematica(
         tmtNombre: 'Instalación software aplicativo',
-        tmtDesc: '',
-        tmtImage: '',
-        tmtfuente: ''
+        tmtDesc: 'Instalar y desinstalar programas de una PC es generalmente un proceso fácil usando Microsoft Windows. Sin embargo, hay suficientes excepciones a esta regla que nunca se debe dar por sentado que un programa se puede instalar o desinstalar sin problemas. \n\nAunque cada software es distinto de instalar, en el botón saber más, encontrarás un paso a paso para instalar cualquier programa.',
+        tmtImage: 'https://img2.freepng.es/20180529/hxi/kisspng-installation-laptop-computer-software-computer-har-computer-software-5b0d0be9021124.2935355115275816730085.jpg',
+        tmtfuente: 'https://www.mundodeportivo.com/uncomo/tecnologia/articulo/como-instalar-y-desinstalar-programas-en-una-pc-6877.html#:~:text=Haz%20clic%20en%20el%20bot%C3%B3n,haz%20clic%20en%20%22Instalar%22.'
     ),
         Tematica(
         tmtNombre: 'Instalación antivirus',
-        tmtDesc: '',
-        tmtImage: '',
-        tmtfuente: ''
+        tmtDesc: 'Instalar un antivirus en el ordenador protegerá tu sistema contra programas maliciosos con los que te puedes encontrar por Internet. Algunos virus atacan el sistema y hacen que se cuelgue. Otros buscan información personal en el disco duro, como números de tarjetas de crédito, y los transmiten a un hacker cuando te conectas a Internet.\n',
+        tmtList: '\nLos pasos para instalar un antivirus son:\n\n'
+            '* Encuentra tu producto antivirus ideal en nuestra comparativa. Dirígete al sitio web de la empresa en Internet para comprar el programa antivirus. Algunos ofrecen versiones de prueba del antivirus de forma gratuita.\n* Elige el producto que quieres comprar en el menú de ofertas de la empresa y haz clic en “Comprar ahora” o “Descargar ahora”.\n* Introduce tu tarjeta de crédito e información personal en los campos necesarios para comprar el software y a continuación pulsa “Enter”.\n* Sigue las instrucciones que aparecen en pantalla, haz clic en “Sí” cuando te pregunten si deseas descargar el software en el ordenador.\n* Espera a que se termine la descarga. Esto puede tardar unos minutos dependiendo de la velocidad de tu conexión a Internet. No apagues el equipo o cambies la configuración hasta que el software haya terminado de descargarse en tu sistema.\n* Haz clic en el archivo descargado para iniciar la instalación. El software comprobará si tu equipo cumple los requisitos mínimos. Si tienes un programa incompatible o una versión anterior del software en tu sistema, el programa te pedirá que la desinstales. Sigue las instrucciones y reinicia el equipo.\n* Reinicia el software antivirus si aún no se ha abierto y haz clic en Instalar. El programa se instalará automáticamente en la ubicación predeterminada.\n* Espera a que el programa complete la instalación. Los detalles se muestran en la pantalla. Durante la instalación, los mejores antivirus como Bitdefender escanean automáticamente tu ordenador en busca de virus.\n* Una vez se completa la instalación se mostrará un resumen del proceso en tu pantalla. Si se ha detectado cualquier virus u otros tipos de malware durante la instalación, el software puede pedirte que reinicies el sistema.',
+        tmtImage: 'https://www.tecnologia-informatica.com/wp-content/uploads/2018/07/word-image-4107-1.jpeg',
+        tmtfuente: 'https://softwarelab.org/es/como-instalar-un-antivirus/'
     ),
         Tematica(
         tmtNombre: 'Software libre',
-        tmtDesc: '',
-        tmtImage: '',
-        tmtfuente: ''
+        tmtDesc: '«Software libre» significa que el software respeta la libertad de los usuarios y la comunidad. En términos generales, los usuarios tienen la libertad de copiar, distribuir, estudiar, modificar y mejorar el software. Con estas libertades, los usuarios (tanto individualmente como en forma colectiva) controlan el programa y lo que hace.\n\nHay quien denomina al Software Libre como "código abierto" o "software de fuentes abiertas" ("open source" software). Aunque se puedan referir a programas similares, la idea que proyecta el término "abierto" no incluye los valores y derechos relacionados con la libertad. La palabra "Libre" se refiere a esa libertad y por lo tanto es un término más adecuado. En la práctica, "Software Libre" y "código abierto" significan, expresan, cosas diferentes.',
+        tmtImage: 'https://elmundogeek.com.mx/wp-content/uploads/2019/10/logos-software-libre-300x250.jpg',
+        tmtfuente: 'https://psico.edu.uy/gestion/informatica/software-libre/que-es-el-software-libre#:~:text=%C2%ABSoftware%20libre%C2%BB%20significa%20que%20el,modificar%20y%20mejorar%20el%20software.'
     ),
         Tematica(
         tmtNombre: 'Gestores de descargas',
-        tmtDesc: '',
-        tmtImage: '',
-        tmtfuente: ''
+        tmtDesc: 'Son aplicaciones independientes que te ayudan a tener un mayor control de lo que te bajas, así como de las fuentes de donde se descargan los archivos y los ritmos a los que se bajan a tu ordenador.\n\nEstos gestores tienen tanto funciones básicas como avanzadas. Lo más esencial es que te permiten acelerar descargas, pausarlas y retomarlas, u ordenarlas para darle más prioridad a unas que otras. Pero es que dependiendo de la aplicación de gestión que utilices, estas funciones pueden ir más allá y permitirte gestionar cuentas, descomprimir archivos u obtener automáticamente los enlaces de una web concreta.\n\nExisten dos tipos principales de gestor de descargas. Por una parte están los que gestionan las descargas directas que te hemos mencionado hasta aquí, que son a los que solemos referirnos coloquialmente como gestores de descargas. Pero también están las aplicaciones que gestionan las descargas de redes P2P, que son otro tipo de gestores pero que suelen recibir otros nombres como clientes de Bittorrent o clientes de la red P2P en las que se basen.',
+        tmtImage: 'https://www.redeszone.net/app/uploads/2018/04/gestores-descargas-android-655x337.jpg',
+        tmtfuente: 'https://www.xataka.com/basics/gestor-descargas-que-que-ventajas-tienen-gestores-recomendados'
     ),
         Tematica(
         tmtNombre: 'Sistemas de redes de topologías',
-        tmtDesc: '',
-        tmtImage: '',
-        tmtfuente: ''
+        tmtDesc: 'La topología de red se representa normalmente mediante un dibujo de líneas y objetos que refleja la topología física y lógica general.\n\nHay dos tipos de topología de red : La topología de red física es la ubicación de diversos componentes de una red. Los diferentes conectores representan los cables de red físicos y los nodos representan los dispositivos de red físicos (como los switches).\nLa topología de red lógica ilustra, en el nivel más alto, cómo fluyen los datos dentro de una red.',
+        tmtImage: 'https://bighardware.es/wp-content/uploads/2021/08/Diagrama-de-topologia-de-malla-completamente-conectada.webp',
+        tmtfuente: 'https://www.arubanetworks.com/es/faq/que-es-la-topologia-de-red/'
     ),
         Tematica(
-        tmtNombre: 'Modelo ISO',
-        tmtDesc: '',
-        tmtImage: '',
-        tmtfuente: ''
+        tmtNombre: 'Modelo OSI',
+        tmtDesc: 'La mayoría de los conjuntos de protocolos de red se estructuran en capas. La Organización Internacional para la Estandarización (ISO) ha diseñado el modelo de referencia de Interconexión de Sistemas Abiertos (OSI) que utiliza capas estructuradas. El modelo OSI describe una estructura con siete capas para las actividades de red. Cada capa tiene asociados uno o más protocolos. Las capas representan las operaciones de transferencia de datos comunes a todos los tipos de transferencias de datos entre las redes de cooperación.',
+        tmtList: '\nEl modelo OSI enumera las capas de protocolos desde la superior (capa 7) hasta la inferior (capa 1):\n'
+            '\n* Nivel 7 - Aplicación\n'
+            '\n* Nivel 6 - Presentación\n'
+            '\n* Nivel 5 - Sesión\n'
+            '\n* Nivel 4 - Transporte\n'
+            '\n* Nivel 3 - Red\n'
+            '\n* Nivel 2 - Vinculación de datos\n'
+            '\n* Nivel 1 - Física\n',
+        tmtImage: 'https://internetpasoapaso.com/wp-content/uploads/Qu%C3%A9-es-modelo-OSI-para-qu%C3%A9-sirve-y-cu%C3%A1l-es-su-importancia-en-los-protocolos-de-redes-inform%C3%A1ticas.jpg',
+        tmtfuente: 'https://docs.oracle.com/cd/E19957-01/820-2981/ipov-8/index.html#:~:text=El%20modelo%20OSI%20describe%20una,entre%20las%20redes%20de%20cooperaci%C3%B3n.'
     ),
         Tematica(
         tmtNombre: 'Discos virtuales',
-        tmtDesc: '',
-        tmtImage: '',
-        tmtfuente: ''
+        tmtDesc: 'La evolución del disco duro desde sus inicios hasta hoy en día nos permite predecir con bastante confianza que el espacio de almacenamiento digital, y la alta demanda del mismo, va a seguir creciendo. Piensa en esto: el almacenamiento promedio de un disquete era de alrededor de 1,44 MB. OneDrive, un disco duro virtual ofrecido por Microsoft, regala 5 GB de almacenamiento gratuito. Esto significa que tienes aproximadamente la capacidad de 4.000 disquetes para acceder a todos tus datos en cualquier momento.\n\nAlgunas veces un disco duro virtual tiene poco que ver con un servidor de almacenamiento y sí más con un sistema operativo. Supongamos que tienes un Mac y la necesidad de ejecutar en ese Mac una aplicación de Windows (una opción lógica si tienes un Mac en casa y Windows en el trabajo, por ejemplo). Si descargas un software de disco duro virtual (o utilizas uno nativo) lo que básicamente haces es engañar a la computadora para que piense que hay otra unidad en él. Y desde esa unidad, puedes trabajar con diferentes sistemas operativos. Pero eso no es todo. Este tipo de disco duro virtual también te permite encriptar archivos para una mayor seguridad e incluso te podría ayudar a crear un archivo de un CD o DVD para que no tengas que tener físicamente el disco en tu ordenador.',
+        tmtImage: 'https://www.informatica-hoy.com.ar/imagenes-notas/2012/disco-virtual-internet-1.jpg',
+        tmtfuente: 'https://www.informaticaparatunegocio.com/disco-duro-virtual-sirve/'
     ),
         Tematica(
         tmtNombre: 'Asistencia remota',
-        tmtDesc: '',
-        tmtImage: '',
-        tmtfuente: ''
+        tmtDesc: 'El software de asistencia informática remota ha revolucionado la industria de la asistencia informática de TI. Los profesionales de TI, mostradores de asistencia, MSP y servicios de atención al cliente han disfrutado de muchas ventajas al usar una herramienta de asistencia informática remota, incluida una mayor satisfacción del cliente, plazos de respuesta más rápidos e incluso costes reducidos.\n\nLa asistencia informática remota aprovecha el software de acceso remoto (o escritorio remoto) para ofrecerle al técnico acceso instantáneo al dispositivo remoto desde cualquier lugar y en cualquier momento. Esto significa que pueda prestar asistencia remota sin tener que ir hasta el dispositivo.',
+        tmtImage: 'https://www.itfluence.com/wp-content/uploads/2020/10/13559-scaled.jpg',
+        tmtfuente: 'https://www.splashtop.com/es/blog/what-is-remote-support-software'
     ),
         Tematica(
-        tmtNombre: 'Nuevas tecnologías 2019 y 2020',
-        tmtDesc: '',
-        tmtImage: '',
-        tmtfuente: ''
+        tmtNombre: 'Nuevas tecnologías 2022 y 2023',
+        tmtDesc: 'Predecir el futuro es complicado y arriesgado. En la industria de la tecnología es todavía más difícil. Las tendencias de la tecnología en 2022 vienen pisando fuerte. En los últimos años la industria ha innovado y ha sufrido varias transformaciones. Algunos de estos cambios no han sido prácticos ni rentables. Otros se han adelantado a su tiempo y otros simplemente no han tenido éxito en el mercado.\n\n',
+        tmtList: '\nTemas como:\n'
+            '* Temas transversales de seguridad\n'
+            '* Movimiento abierto de propiedad intelectual\n'
+            '* Sustentabilidad\n'
+            '* Cursos abiertos masivos en línea\n'
+            '* Computación cuántica\n'
+            '* Nanotecnología\n'
+            '* Circuitos integrados 3D\n'
+            '* Memoria universal\n'
+            '* Multinúcleo\n'
+            '* Fotónica\n'
+            '* Redes e interconectividad\n'
+            ,
+        tmtImage: 'https://blog.endeos.com/wp-content/uploads/2021/04/servicios-informaticos-demandados.jpg',
+        tmtfuente: 'https://www.syntonize.com/tendencias-de-la-tecnologia-en-2022/'
     ),
         Tematica(
         tmtNombre: 'HTML',
-        tmtDesc: '',
-        tmtImage: '',
-        tmtfuente: ''
+        tmtDesc: 'HTML (Lenguaje de Marcas de Hipertexto, del inglés HyperText Markup Language) es el componente más básico de la Web. Define el significado y la estructura del contenido web. Además de HTML, generalmente se utilizan otras tecnologías para describir la apariencia/presentación de una página web (CSS) o la funcionalidad/comportamiento (JavaScript).\n\n"Hipertexto" hace referencia a los enlaces que conectan páginas web entre sí, ya sea dentro de un único sitio web o entre sitios web. Los enlaces son un aspecto fundamental de la Web. Al subir contenido a Internet y vincularlo a las páginas creadas por otras personas, te conviertes en un participante activo en la «World Wide Web» (Red Informática Mundial).\n\nHTML utiliza "marcas" para etiquetar texto, imágenes y otro contenido para mostrarlo en un navegador Web. Las marcas HTML incluyen "elementos" especiales como <head>, <title>, <body>, <header>, <footer>, <article>, <section>, <p>, <div>, <span>, <img>, <aside>, <audio>, <canvas>, <datalist>, <details>, <embed>, <nav>, <output> (en-US), <progress>, <video>, <ul>, <ol>, <li> y muchos otros.',
+        tmtImage: 'https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-html/sta-je-html.jpg',
+        tmtfuente: 'https://developer.mozilla.org/es/docs/Web/HTML'
     ),
         Tematica(
         tmtNombre: 'Drivers',
-        tmtDesc: '',
-        tmtImage: '',
-        tmtfuente: ''
+        tmtDesc: 'Dicho de manera muy simple, el driver o controlador de dispositivos es un pequeño software que conecta el sistema operativo directamente con los componentes del hardware de la PC.Por ejemplo, si tienes una placa de vídeo instalada en tu computadora, esta necesita entenderse con el sistema operativo para poder recibir las instrucciones y procesar todo correctamente; y precisamente esta es la función que cumple el controlador, un puente entre ambos.\n\nEl driver le da instrucciones al sistema operativo sobre cómo debe funcionar determinado hardware y de que forma el sistema debe trabajar en conjunto para suministrarte los mejores resultados',
+        tmtImage: 'https://www.tecnologia-informatica.com/wp-content/uploads/2018/02/que-son-los-drivers-o-controladores-1.jpg',
+        tmtfuente: 'https://www.tecnologia-informatica.com/que-son-drivers-controladores/'
     ),
         Tematica(
         tmtNombre: 'Características para compra computadora',
-        tmtDesc: '',
-        tmtImage: '',
-        tmtfuente: ''
+        tmtDesc: 'No hay que ser un gran experto para comprar el equipo que más nos conviene. Eso sí, hay que fijarse en las especificaciones técnicas más importantes y, sobre todo, hacerse la siguiente pregunta: ¿para qué voy a usar el ordenador?\n\nComprar un ordenador nuevo suele traer bastantes quebraderos de cabeza. Las tiendas nos abruman con datos técnicos que no entendemos y cada vez hay más tipos de ordenador además del tradicional pc de sobremesa.\n\nLo primero que tenemos que preguntarnos a la hora de comprar un ordenador es: ¿para qué voy a usarlo? Una persona sin grandes conocimientos de informática, que se dedica a navegar, ver películas y utilizar los programas de oficina tendrá suficiente con un portátil de 600 euros. Un fanático de los videojuegos buscará un equipo de sobremesa potente y con un monitor espectacular. Un profesional que trabaje en el ámbito del diseño o multimedia también requerirá un ordenador de mayor calidad.\n\nEn la tienda de ordenadores, si no nos ayuda el dependiente seríamos incapaces de comprar un ordenador. Las especificaciones técnicas son complicadas y nunca tenemos muy claro qué es mucho o poco. ¿Me llega con 500 GB de disco duro? Y si guardo los Archivos en el disco duro… ¿qué es eso de la memoria RAM?  ¿Cómo elijo la mejor tarjeta gráfica?',
+        tmtList: '\nSe deben tener en cuenta las siguientes características:\n'
+              '\n1. Procesador'
+              '\n2. Disco duro'
+              '\n3. Memoria RAM'
+              '\n4. Tarjeta gráfica'
+              '\n5. Batería'
+              '\n6. Peso equipo'
+              '\n7. Tamaño de la pantalla',
+        tmtImage: 'https://www.pcmadrid.es/wp-content/uploads/2019/02/howmuchspend_image.png',
+        tmtfuente: 'https://www.conquistainternet.com/blog/que-hay-que-tener-en-cuenta-a-la-hora-de-comprar-un-ordenador'
     ),
         Tematica(
         tmtNombre: 'Panel de control',
-        tmtDesc: '',
-        tmtImage: '',
-        tmtfuente: ''
+        tmtDesc: 'El Panel de Control es una parte de la interfaz gráfica del sistema Microsoft Windows, la cual permite a los usuarios ver ajustes y controles básicos del sistema, tales como agregar nuevo hardware, gestionar las cuentas de usuario de Windows, tener acceso a opciones de accesibilidad, entre otras opciones de sonido y pantalla. Otras Aplicaciones adicionales pueden ser proporcionados por software de terceros\n\nEl Panel de Control ha sido una parte inherente del sistema operativo de Microsoft Windows a partir de Windows 2.0, con muchos de los Windows actuales agregados en las últimas versiones. El Panel de Control es un programa independiente, no una carpeta como aparece, que se puede acceder desde el menú inicio (hasta Windows 7), y se almacena en el directorio system32.',
+        tmtImage: 'https://www.softzone.es/app/uploads-softzone.es/2020/05/Panel-control-Windows.jpg',
+        tmtfuente: 'https://support.microsoft.com/es-es/windows/-d%C3%B3nde-esta-el-panel-de-control-aef7065f-a9ec-1ba9-8cab-79b2b83bdda5'
     ),
         Tematica(
         tmtNombre: 'Seguridad informática',
-        tmtDesc: '',
-        tmtImage: '',
-        tmtfuente: ''
+        tmtDesc: 'Que las empresas están cada vez más expuestas a las amenazas de ciberseguridad es una realidad. Y este es un motivo más que suficiente para que las empresas y los usuarios tomen medidas con el fin de proteger sus sistemas. Desde la instalación de software de seguridad, auditorías y formación de los empleados, hasta la adopción de medidas de seguridad físicas.\n\nLa seguridad informática es una rama de la seguridad que se dedica a proteger los sistemas informáticos de amenazas externas e internas. Las amenazas externas son aquellas que provienen del entorno exterior en el que se encuentra el sistema como, por ejemplo: ataques informáticos, virus, robos de información, etc. Las amenazas internas son aquellas que provienen del propio sistema, como: errores humanos, exposición pública de credenciales, fallos o desactualizaciones en el software y fallos en el hardware, entre otros.',
+        tmtImage: 'https://www.ikusi.com/wp-content/uploads/2022/12/ikusi_ikusi_image_403.jpg',
+        tmtfuente: 'https://www.grupocibernos.com/blog/que-es-la-seguridad-informatica-y-como-implementarla'
     ),
         Tematica(
         tmtNombre: 'Delitos informáticos',
-        tmtDesc: '',
-        tmtImage: '',
-        tmtfuente: ''
+        tmtDesc: 'Debido a que el concepto a definir es un concepto inmerso en el derecho, no nos cabe duda que son precisamente los expertos de este mundo-ciencia los llamados irrefutablemente a diseñar la definición de los delitos informáticos. El derecho es una ciencia llamada a regular todos los tópicos de la vida en sociedad y especialmente a salvaguardaría, sobre principios de justicia, de los atentados a la normal y pacífica convivencia. \n\nDesde esta perspectiva, el derecho debe entregar la definición del Derecho Informático y por ende de sus delitos, en relación de continente a contenido. Se podrá decir que el jurista no está capacitado para indagar en los fenómenos de la informática y que por lo tanto la definición debe provenir de aquellos que han abrazado ciencias relacionadas con ella. Sin ánimo de polemizar, decimos que el Derecho como expresión normativa de la Justicia regula todos los aspectos de la convivencia social, incluida la actividad informática que se aplica en toda actividad humana, con tanta trascendencia social y económica. \n\nPara tan alta empresa, el derecho, muchas veces se auxilia en los conocimientos propios de otras ciencias, a los cuales les aplica su sello distintivo constructor de normas y principios jurídicos. Pensar lo contrario, implicaría imposibilitar al mundo del derecho de normar sobre la medicina forense, las ingenierías, las ciencias que abarcan la expresión pública, etc. Aún más grave, se pondría al juez, que es un abogado, en la imposibilidad de administrar justicia en materias ajenas al derecho',
+        tmtImage: 'https://lajusticiadigital.com/wp-content/uploads/2022/07/softplanplanejamentoesistemasltda_softplan_image_461.jpeg',
+        tmtfuente: 'https://www.oas.org/juridico/spanish/cyb_ecu_delitos_inform.pdf'
     ),
         Tematica(
         tmtNombre: 'Ciberdelincuentes',
-        tmtDesc: '',
-        tmtImage: '',
-        tmtfuente: ''
+        tmtDesc: 'La ciberdelincuencia es una actividad delictiva que tiene como objetivo principal un ordenador, una red asociada a este o un dispositivo conectado. No obstante, aunque la creencia más arraigada en la sociedad es que es llevada a cabo por individuos o ciberdelincuentes, la ciberdelincuencia también puede ser practicada por organizaciones. Incluso los Estados utilizan herramientas para acometer ciberataques a otras naciones.\n\nSu objetivo principal es, eso sí, el mismo: dañar dispositivos o sistemas de usuarios u organizaciones con fines de lucro, personales o políticos',
+        tmtImage: 'https://s3.amazonaws.com/images.pymas.com.co/_600xAUTO_crop_center-center/tipos-delitos-informaticos.png',
+        tmtfuente: 'https://www.redseguridad.com/actualidad/cibercrimen/que-es-la-ciberdelincuencia-y-como-se-puede-prevenir_20220117.html'
     ),
         Tematica(
         tmtNombre: 'Software malicioso',
-        tmtDesc: '',
-        tmtImage: '',
-        tmtfuente: ''
+        tmtDesc: 'El software malicioso es cualquier software o aplicación móvil que se haya diseñado específicamente para perjudicar a los usuarios o dañar los ordenadores, los dispositivos móviles o el software que se ejecute en ellos. Este tipo de software realiza acciones maliciosas, como instalar programas dañinos (por ejemplo, virus) o software sin el consentimiento de los usuarios. A veces, los propietarios de sitios web no se dan cuenta de que sus archivos descargables se consideran software malicioso, por lo que quizá alojen esos binarios sin saberlo.\n\nEl software no deseado son archivos ejecutables o aplicaciones móviles que se comportan de manera engañosa o inesperada, o que perjudican de otro modo a los usuarios cuando navegan o utilizan sus dispositivos. Por ejemplo, software que provoca cambios en la página principal o en otros ajustes del navegador sin que lo solicites, o aplicaciones que filtran información privada o personal sin avisarte.',
+        tmtImage: 'https://www.eltiempo.com/files/image_640_428/uploads/2019/10/23/5db0f1a783396.jpeg',
+        tmtfuente: 'https://developers.google.com/search/docs/advanced/security/malware?hl=es#:~:text=en%20tu%20sitio.-,%C2%BFQu%C3%A9%20es%20el%20software%20malicioso%3F,que%20se%20ejecute%20en%20ellos.'
     ),
         Tematica(
         tmtNombre: 'Unidades aritmética lógica',
-        tmtDesc: '',
-        tmtImage: '',
-        tmtfuente: ''
+        tmtDesc: 'La ALU o unidad aritmético lógica consiste en un circuito digital que permite realizar operaciones ariméticas y lógicas entre dos números.\n\nALU viene del inglés y es acrónimo de Arithmetic Logic Unit. En español, la unidad aritmético lógica vendría a ser una especie de circuito que tiene la capacidad de calcular operaciones como adición, substracción u otras como NOT y XOR.\n\nUna ALU puede encontrarse en todo tipo de circuitos y dispositivos electrónicos. Por ejemplo, en un reloj de pulsera digital que permite la adición de un segundo en forma constante. Pero también y en cantidad en un complejo circuito de microprocesador moderno. Otros ejemplos se encuentran en tarjetas gráficas, de sonido o video, equipos de TV de alta definición, y lectoras de CD.',
+        tmtImage: 'https://unigal.mx/wp-content/uploads/2021/09/1631745335_858_ALU-unidad-logica-aritmetica-definicion-funcion-y-mas.png',
+        tmtfuente: 'https://www.definicionabc.com/tecnologia/alu.php'
     ),
         Tematica(
         tmtNombre: 'Memoria semiconductora',
-        tmtDesc: '',
-        tmtImage: '',
-        tmtfuente: ''
+        tmtDesc: 'Desde 1972 el tipo de memoria universalmente empleada como memoria principal es la memoria de semidonductores. Las memorias de semiconductores almacenan la información en forma electrónica, mediante circuitos simples, que pueden ser construidos automáticamente y en forma masiva con la cada vez más sofisticada tecnología de integración de gran escala. Lamentablemente, éstas memorias son volátiles. Dado que almacenan la información electrónicamente, al quitarse la alimentación la misma se pierde.\n\nEstas memorias, son las mismas que se tocaron en el tema memoria RAM, ROM y caché.',
+        tmtImage: 'https://i.blogs.es/1ca3e4/memoria-ram/1366_2000.jpg',
+        tmtfuente: 'http://www.portalhuarpe.com.ar/medhime20/Sitios%20con%20Medhime/Computaci%C3%B3n/COMPUTACION/Menu/modulo%204/paginas/4-4.htm'
     ),
         Tematica(
         tmtNombre: 'Deep Web',
-        tmtDesc: '',
-        tmtImage: '',
-        tmtfuente: ''
+        tmtDesc: 'La Dark Web es el conjunto oculto de sitios de Internet a los que solo se puede acceder mediante un navegador web especializado. Se utiliza para mantener la actividad de Internet privada y en el anonimato, lo que puede ser útil tanto en aplicaciones legales como ilegales. Si bien algunos la utilizan para evadir la censura del gobierno, también se sabe que se utiliza para actividades altamente ilegales.\n\nLa Deep Web se encuentra debajo de la superficie y representa aproximadamente el 90 % de todos los sitios web. Esta sería la parte de un iceberg debajo del agua, mucho más grande que la web superficial. De hecho, esta web oculta es tan grande que es imposible determinar con exactitud cuántas páginas o sitios web están activos en un momento dado.\n\nSiguiendo con la analogía, los grandes motores de búsqueda podrían considerarse como barcos de pesca que solo pueden “atrapar” sitios web cerca de la superficie. Todo lo demás, desde revistas académicas hasta bases de datos privadas y más contenido ilícito, está fuera de alcance. Esta web profunda también incluye la parte que conocemos como la web oscura o dark web.',
+        tmtImage: 'https://i.blogs.es/1ddc56/deep-web-pc/450_1000.jpg',
+        tmtfuente: 'https://www.kaspersky.es/resource-center/threats/deep-web'
     ),
         Tematica(
         tmtNombre: 'Como recuperar archivos disco duro',
-        tmtDesc: '',
-        tmtImage: '',
-        tmtfuente: ''
+        tmtDesc: 'Cuando un disco duro no es reconocido por nuestro sistema operativo, hace ruidos extraños o directamente parece "muerto", cómo recuperar la información que contiene, especialmente si es personal y/o del trabajo y no tenemos copia de seguridad, es una necesidad. Aunque dependiendo del tipo de error tendremos que recurrir o no a una empresa especializada, hay software y algunas comprobaciones que nos pueden ser de mucha ayuda para conocer la situación a la que nos enfrentamos y poder actuar en consecuencia para recuperar la información perdida en un disco duro.\n\nPara mejorar la experiencias, en el botón Saber más, lleva a un video donde se explica el uso de un software para poder recuperar los archivos del disco duro dañado.',
+        tmtImage: 'https://compudiagnosis.com/wp/wp-content/uploads/2018/01/herramienta-dats.jpg',
+        tmtfuente: 'https://www.youtube.com/watch?v=MmIokjEwSVU'
     ),
         Tematica(
         tmtNombre: 'Internet',
-        tmtDesc: '',
-        tmtImage: '',
-        tmtfuente: ''
+        tmtDesc: 'Internet es una red de computadoras que se encuentran interconectadas a nivel mundial para compartir información. Se trata de una red de equipos de cálculo que se relacionan entre sí a través de la utilización de un lenguaje universal.\n\nEl concepto Internet tiene sus raíces en el idioma inglés y se encuentra conformado por el vocablo inter (que significa entre) y net  (proveniente de network que quiere decir red electrónica). Es un término que siempre debe ser escrito en mayúscula ya que, hace referencia a “La Red” (que conecta a las computadoras mundialmente mediante el protocolo TCP/IP) y sin un artículo que lo acompañe (el/la) para hacerle referencia.',
+        tmtImage: 'https://img.freepik.com/vector-gratis/ilustracion-concepto-mundo-online_114360-1092.jpg',
+        tmtfuente: 'https://concepto.de/internet/'
     ),
 ];
 

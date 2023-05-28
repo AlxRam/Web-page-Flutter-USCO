@@ -67,16 +67,19 @@ class PageOne extends StatelessWidget {
                               alignment: Alignment.bottomCenter,
                               child: Padding(
                                   padding: const EdgeInsets.all(8.0),
-                                  child: Container(
-                                      color: const Color(0xFF0E3311).withOpacity(0.6),
-                                      child: Padding(
-                                          padding: const EdgeInsets.all(8.0),
-                                          child: Text(
-                                              // datalist[index].cityName,
-                                              tema.tematicas[index].tmtNombre,
-                                              style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 20)
-                                          )
-                                      )
+                                  child: ClipRRect(
+                                    borderRadius: BorderRadius.circular(10),
+                                    child: Container(
+                                        color: const Color(0xFF1D211D).withOpacity(0.6),
+                                        child: Padding(
+                                            padding: const EdgeInsets.all(8.0),
+                                            child: Text(
+                                                // datalist[index].cityName,
+                                                tema.tematicas[index].tmtNombre,
+                                                style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 20)
+                                            )
+                                        )
+                                    ),
                                   )
                               )
                           )

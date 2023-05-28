@@ -139,17 +139,27 @@ class Autorright extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const SizedBox(
+    return SizedBox(
         height: 100,
         child: Center(
-            child: Text(
-                '2023 © - EL CONTENIDO NO ESTÁ PROTEGIDO POR DERECHOS DE AUTOR, PERO REFERENCIAME PORFI\nCreado por AlxRam',
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                  fontSize: 15,
-                  fontWeight: FontWeight.w300,
-                  color: Color(0xFFD9CEA1),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                    '2023 © - EL CONTENIDO NO ESTÁ PROTEGIDO POR DERECHOS DE AUTOR, PERO REFERENCIAME PORFI\nCreado por AlxRam',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontSize: 15,
+                      fontWeight: FontWeight.w300,
+                      color: Color(0xFFD9CEA1),
+                    )
+                ),
+                SizedBox(height: 2),
+                InkWell(
+                  child: Image.network('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/300px-GitHub_Invertocat_Logo.svg.png', height: 25),
+                  onTap: () => launchUrl(Uri.parse('https://github.com/AlxRam')),
                 )
+              ],
             )
         )
     );
