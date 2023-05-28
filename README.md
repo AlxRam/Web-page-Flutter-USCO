@@ -2,15 +2,6 @@
 
 Portafolio desarrollo software.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Una página sencilla en Flutter, para ir adquiriendo habilidades tanto en el propio FLutter
+como en el desarrollo de páginas web, una página sencilla, minimalista, con algunas curiosidades 
+como tener un diseño responsivo tanto para dispositivos móviles como para equipos de computo.
